@@ -1,0 +1,146 @@
+//these is a utility function to connect and disconnects from mongodb
+//first import Mongoose
+//creste an empty object
+//create async function to connect the database(connect)
+//
+
+
+create a products api
+0.create the product schema, as a second argument put timestamp; true (to keep track of time management of data changes)  }
+1. create a products model {check if Product model already exist otherwise create a new model}
+after creating the product model create api in api folder
+create an api to return a list of products from database
+install next-connect its middleware for creating backend
+initialise it
+connect the database
+get Products from the model
+disconnects from the database
+send the model to database
+return every projects without filters
+it will output an empty array
+lets add some data to product model
+seed the data to model
+crete a seed.js
+2. seed sample databaseu will  see data in json format
+with hree new fields
+
+3. create /api/products/index.js
+4. create product api
+
+seed address shows seeded successfully
+open api/products adrees
+
+change the data source from products api
+
+fetch Products from api
+1. use 
+we will use serversideprops to fetch data  to use at serverside
+get products from databasereturn data as props it will return the props use this props
+use this props form data into component
+use it in products screen to
+after destructur and using  itu wiil recieve an error (sereililizing)
+use lean frunction to serialize data 
+it will return only plain javascript object instead of whole document
+another error
+we've to convert the id into objectanother form
+crete utility function into db.js
+createdoctoobject
+export itand use it in serverside function
+map the products 
+result is ready
+lean() function to convert data document into plai javascript object
+
+crete the changes in products details page to
+get data from the database
+
+
+implement add to cart functionality
+using axios to get request
+dispatch an action to reacct context Api
+
+
+while refreshing u can see that subtotal comes under table thats the server ide redering issue
+
+solution is to run cart component only in the clientside
+
+17. Convert Cart Screen TO Dynamic component
+1. Use next/Dynamic
+2. Wrap cart in dynamic without ssr={false}
+
+18. Updatte Remove Items in Cart
+1. Implement onChange for Select
+2. Show notification by notistack
+3. Implement delete button handler
+
+19. creat Login Screen
+1. create form
+2. add email and password field
+3. add login button
+4.style form
+
+20. create sample Users
+1. create User model
+2. add sample user in seed api
+
+first create a use schema (from ProductSchema)
+create a sample data in data.js
+
+cretebuild an backend api for login
+click on login get an successfully login
+api call  request to backend with payload email and password
+implement backend to authenticate user generate the token and return it to front-end as an object
+
+create a utility function for authentication auth.js
+create a signtoken with jwt
+
+22.
+Complete Login screen
+1. handle form submission
+2. add userInfo to context3. 
+3. save userInfo to cookies
+4. show user name in navbar using menu
+
+23. create Register page
+1. create form
+2. implement backend api
+3. redirect user to redirect page
+
+25. creating the new user in database
+copy login.js
+create the new user instance
+use the mongoos save method to save the user in created user
+
+form validation
+
+shipping screen
+
+after login redirect to the shipping screen
+
+save the shipping address to the context
+
+26. create payment screen
+1. create form
+2. add radio button
+3. save method in context
+
+27. placing order
+1. create click handler
+2. send ajax request
+3. clear cart
+4. redirect to the order Screen
+5. create backend api
+
+29. create order detaiils page
+1. create api to orderinfo
+2. create payment, shipping and Items
+3. create order summary
+
+30. paypal checkout functionality
+
+31
+1. create orders api
+2. show orders in profile screen
+
+32. UPdate User profile
+1. create profile screen
+2. create update profile api

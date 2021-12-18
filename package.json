@@ -1,0 +1,27 @@
+{
+  "name": "shoping-spree",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.2",
+    "@mui/styles": "^5.2.2",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "next": "12.0.4",
+    "next-connect": "^0.11.0",
+    "notistack": "^2.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.21.0"
+  }
+}
