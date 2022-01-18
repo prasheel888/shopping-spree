@@ -12,7 +12,7 @@ import useStyles from "../utils/styles";
 import NextLink from "next/link";
 import axios from "axios";
 import { Store } from "../utils/store";
-import router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 import Cookies from "js-cookie";
 import { useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
